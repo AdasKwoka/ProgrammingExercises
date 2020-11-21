@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/LAB3_LAB4_ZADANIA/macierz.hpp
+iostream
+-
+fstream
+-
+cstdlib
+-
+
+C:/Users/adamk/Desktop/03_semestr_zimowy/Jezyki_i_Paradygmaty_Programowania/projects/Lab3_Lab4_zadania/src/main.cpp
+iostream
+-
+LAB3_LAB4_ZADANIA/macierz.hpp
+-
+fstream
+-
+
