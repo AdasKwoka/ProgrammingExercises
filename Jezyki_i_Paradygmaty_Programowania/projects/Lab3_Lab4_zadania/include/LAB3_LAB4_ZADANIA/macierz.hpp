@@ -39,11 +39,6 @@ public:
   }
   ~Macierz()
   {
-    cout << "Destruktor macierzy" << endl;
-    for (int i = 0; i < lw; i++)
-    {
-      delete[] macierz[i];
-    };
     delete[] macierz;
   }
   Macierz(int kwadrat)
