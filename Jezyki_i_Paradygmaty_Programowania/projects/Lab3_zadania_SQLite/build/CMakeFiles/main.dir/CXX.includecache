@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Lab3_zadania_sqlite/macierz.hpp
+iostream
+-
+fstream
+-
+cstdlib
+-
+sqlite3/sqlite3.h
+-
+sstream
+-
+
+../libs/sqlite3/include/sqlite3/sqlite3.h
+stdarg.h
+-
+
+C:/Users/adamk/Desktop/03_semestr_zimowy/Jezyki_i_Paradygmaty_Programowania/projects/Lab3_zadania_SQLite/src/main.cpp
+iostream
+-
+Lab3_zadania_sqlite/macierz.hpp
+-
+fstream
+-
+
